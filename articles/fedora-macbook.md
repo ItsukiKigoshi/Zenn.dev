@@ -209,15 +209,15 @@ https://www.ycam.jp/
 
 ## 【本題3】Fedora Linuxをデュアルブートする
 それでは，macOSとFedora Linuxのデュアルブートを始めましょう．今後もmacOSを使う可能性があるのでmacOSは残しつつ，FedoraをMacBookでデュアルブートしていきます．
-実際に，Final Cut Pro（長い動画の書き出し時間はこっちの方が短い）やiTunes (Music; iPodとの同期)が必要な場面が出てきてmacOSも使いました，しかし，普段macOSの出番は殆どありません．
+実際に，Fedora導入後もFinal Cut Pro（長い動画の書き出し時間はこっちの方が短い）やiTunes (Music; iPodとの同期)が必要な場面が出てきてmacOSも使いました，しかし，普段macOSの出番は殆どありません．
 
 ### 必要な物
 - **有線インターネット**（もしくはAndroidか，携帯通信容量に余裕のあるiPhone）
 - **USBメモリ** (インストールメディア用)
-  - 私は無かったのでSDカードで代用しました..
+  - 私は無かったのでSDカードで代用しました．
   - しかしSDカードは比較的衝撃に弱かったりするそうなのでおすすめしません
 - **パソコンオタク**（"Geek"; もし近くにいればきっと助けてくれるでしょう）
-  - 「[おまけ](https://zenn.dev/itsukikigoshi/articles/fedora-macbook#%E3%81%8A%E3%81%BE%E3%81%91%3A-computer-hacker---ian)」で後述
+  - 「[おまけ](#%E3%81%8A%E3%81%BE%E3%81%91%3A-computer-hacker---ian)」で後述
 
 ### 手順
 本手順は，作業の全体像を示すために概略を掲載したものです．
