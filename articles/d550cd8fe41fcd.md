@@ -134,6 +134,9 @@ volumeup = f12
 その後，ターミナルで
 
 ```bash
+sudo systemctl start keyd
+sudo systemctl enable keyd
+# 既にkeydが起動済みの場合は
 sudo keyd reload
 ```
 
