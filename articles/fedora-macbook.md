@@ -253,15 +253,20 @@ Ethernet-Thunderbolt^[おじいちゃんがこのMacBookと一緒に持ってい
 
 ### broadcom-wl: Wi-Fiセットアップ
 ここからの工程は，私がやったときと同じく[こちらのブログ](https://www.schabell.org/2025/01/installing-fedora-41-on-macbook-pro-13-inch-late-2011.html#:~:text=Updating%20the%20installation)を参照しています．
-インターネットにつながったら，まずは既存のライブラリを一括アップデートし，ドライバをインストールします．
+インターネットにつながったら，まずは既存のライブラリを一括アップデートし，その後ドライバをインストールします．
 
+参照: [Broadcom wireless | Arch Wiki](https://wiki.archlinux.org/title/Broadcom_wireless)
 ```sh
+# RPM Fusion Repositories（Fedora公式が配布しないRPMパッケージを配布するサイト）を有効化
+# Cf. https://rpmfusion.org/Configuration
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
 # 一括アップデート
 sudo dnf --refresh update
-# broadcomのドライバをインストール
-sudo dnf install -y broadcom-wl
+# broadcom-wirelessドライバと関連ライブラリをインストール
+sudo dnf install akmod-wl broadcom-wl kmod-wl
 # なんやわからんけどそれをビルド
-sudo akmods
+sudo akmods --force
 ```
 
 これで
@@ -300,6 +305,7 @@ https://zenn.dev/itsukikigoshi/articles/d550cd8fe41fcd
 
 ### その他
 - DropboxやJetBrains Toolboxなど，トップバーに表示されるインジケータの表示には，[こちらのGNOME Extension](https://extensions.gnome.org/extension/615/appindicator-support/)を入れてください！こんなん最初からあってもいいと思うですが，どうなってまんねやろなあ．
+- FirefoxでPicture in Pictureを常に画面の最上部に表示するには[こちらのGNOME Extension](https://extensions.gnome.org/extension/4691/pip-on-top/)を使います
 
 ### メモ: いつからFedora?
 Fedoraを使い始めたのは2026/1/31のようです．
