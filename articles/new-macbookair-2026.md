@@ -2,7 +2,7 @@
 title: "新しいMacBook Airのセットアップ備忘録"
 emoji: "🦎"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [mac,macbookair,macos]
+topics: [mac,macbookair]
 published: true
 ---
 ![New MacBook Air](/images/new-macbookair-2026/air.webp)
