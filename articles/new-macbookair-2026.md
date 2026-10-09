@@ -58,10 +58,6 @@ Fedoraでdnf（パッケージマネージャ）経由でソフトウェアを�
 ### Web開発
 - [Bun](https://bun.com/)
   - `brew install oven-sh/bun/bun`
-- [Node.js](https://nodejs.org/en/download)
-  - `brew install node@24`
-- [pnpm](https://pnpm.io/installation)
-  - `curl -fsSL https://get.pnpm.io | sh -`
 
 ### その他ユーティリティ系
 - [⌘英かな](https://eikana.dominion525.com/) (Apple Silicon版Fork)
