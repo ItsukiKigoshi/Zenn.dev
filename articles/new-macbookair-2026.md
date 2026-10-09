@@ -20,7 +20,7 @@ https://zenn.dev/itsukikigoshi/articles/fedora-macbook
 ドングル（Wi-Fi子機）の購入も検討し，実際に一つ買ってみましたが，Wi-FiチップがLinuxカーネルに同梱されているドライバで動作するものなのか判断するのはなかなか難しく，また子機本体がUSBマウスのレシーバほどの小ささであれば耐えられますが，長い棒を立てるタイプは不格好だし持って行き忘れそうなので，それでもストレスがたまりそうでした，
 
 ### 買ったもの
-FedoraとGNOMEの組み合わせはCoolでmacOSのMissionControl（開いているウィンドウ一覧）とLaunchpad（アプリ一覧）が三本指スワイプでシームレスにデスクトップと繋がっているシンプルなデザイン哲学やdnfによる一括したパッケージ管理など，今でも使えるなら使いたいのですが，もうここらが買い換え時だろうと判断したので，今日Apple Storeの店頭で **MacBook Air (Apple M5; 16GB Memory; 512GB Storage; US Keyboard)** モデルを学生価格（¥206,800）で購入しました．LenovoでFedoraを使うことへの憧れもあり検討しましたが，プリインストールでUNIXライクなOS(macOS)が入っていて，何より筐体のデザインが美しいMacBook Airが20万円で買えるのに，同等かそれ以上の額を出してCopilotキー付きでFedoraとの相性もわからない（Wi-FiチップがドライバなしでもLinuxカーネル/NetworkManagerに認識されるのか？）Lenovoを買うのには気が引けてこのような選択をしてしまいました．MacBook Airは安直な選択でちょっと悲しい．でもきっと他（Framework with Fedora, Lenovo with Fedora）などと比べてサポートやデバイスの強度が一番確からしいであろうから良いとするのだ．
+FedoraとGNOMEの組み合わせはCoolでmacOSのMissionControl（開いているウィンドウ一覧）とLaunchpad（アプリ一覧）にあたる機能が三本指スワイプでシームレスにデスクトップと繋がっているシンプルなデザイン哲学やdnfによる一括したパッケージ管理など，今でも使えるなら使いたいのですが，もうここらが買い換え時だろうと判断したので，今日Apple Storeの店頭で **MacBook Air (Apple M5; 16GB Memory; 512GB Storage; US Keyboard)** モデルを学生価格（¥206,800）で購入しました．LenovoでFedoraを使うことへの憧れもあり検討しましたが，プリインストールでUNIXライクなOS(macOS)が入っていて，何より筐体のデザインが美しいMacBook Airが20万円で買えるのに，同等かそれ以上の額を出してCopilotキー付きでFedoraとの相性もわからない（Wi-FiチップがドライバなしでもLinuxカーネル/NetworkManagerに認識されるのか？）Lenovoを買うのには気が引けてこのような選択をしてしまいました．MacBook Airは安直な選択でちょっと悲しい．でもきっと他（Framework with Fedora, Lenovo with Fedora）などと比べてサポートやデバイスの強度が一番確からしいであろうから良いとするのだ．
 
 ## 本題: MacBook Airセットアップ備忘録
 というわけで実際に行ったセットアップをまとめます．半分は将来の自分のため．
