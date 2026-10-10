@@ -60,9 +60,6 @@ Fedoraでdnf（パッケージマネージャ）経由でソフトウェアを�
   - `brew install oven-sh/bun/bun`
 
 ### その他ユーティリティ系
-- [⌘英かな](https://eikana.dominion525.com/) (Apple Silicon版Fork)
-  - `brew install --cask dominion525/tap/cmd-eikana`
-  - USキーボードで英数かなキーの機能をコマンドキーに割り当てるだけのアプリです．
 - [AltTab](https://alt-tab.app/)
   - `brew install --cask alt-tab`
   - ⌘+Tabの挙動を修正し，ウィンドウ単位でアプリケーションの切り替えができるようにするものです．Macの⌘+Tabはシンプルすぎるのでこれがあると便利
