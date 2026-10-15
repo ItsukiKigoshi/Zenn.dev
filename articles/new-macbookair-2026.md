@@ -54,8 +54,11 @@ Fedoraでdnf（パッケージマネージャ）経由でソフトウェアを�
     - `echo 'export SSH_AUTH_SOCK=~/.bitwarden-ssh-agent.sock' >> ~/.zshrc`
     - `source ~/.zshrc`
 
-
 ### Web開発
+- [Node.js](https://nodejs.org/en/download)
+  - `brew install node`
+- [pnpm](https://pnpm.io/installation)
+  - `brew install pnpm`
 - [Bun](https://bun.com/)
   - `brew install oven-sh/bun/bun`
 
