@@ -24,7 +24,7 @@ https://zenn.dev/itsukikigoshi/articles/new-macbookair-2026
 私はUSキーボードモデルを買ったので前回のJISベースに比べて全体的にキー数が少なく記号の配置に迷いました．
 
 以下が主なこだわりです:
-- 私は **\[** (open blacket)と **\]** (close blacket)をよく使用するのでその場所が左右に並ぶようにした
+- 私は **\[** (open bracket)と **\]** (close bracket)をよく使用するのでその場所が左右に並ぶようにした
 - Deleteが右下の押しやすい位置に来るようにした
 - fn+Delete（後方文字削除）が片手で操作できるようにした．
   - BackSpace/Deleteに関しては，もう少し検討の余地がありそう
