@@ -1,6 +1,6 @@
 ---
 title: "MacBook Air (2026)を大西配列化する（Karabinar-Elements on macOS 27）"
-emoji: "👋"
+emoji: "🦡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [大西配列, macos, karabinerelements]
 published: false
