@@ -33,6 +33,8 @@ https://zenn.dev/itsukikigoshi/articles/new-macbookair-2026
 ### 2. キーの物理的な再配置
 #### a. キーを剥がす
 まず，キーを剥がします．今回は新品なので必要ありませんが，剥がしたついでに綿棒やエアダスターで掃除をすると良いでしょう．
+![Keys Removed](/images/o24-macbookair/removed.webp)
+*キーボードを剥がした様子*
 
 こちらのYouTube動画が参考になります．
 https://www.youtube.com/watch?v=8dB-vNBXEFQ
@@ -44,15 +46,28 @@ https://www.youtube.com/watch?v=8dB-vNBXEFQ
 という流れです．
 このとき，無理に剥がそうとするとこれらの爪が折れて，キーが浮いたり固定されない原因になります．爪が折れるとキーの買い換え以外に選択肢がなくなりとても悲しいので気をつけましょう．
 
+![Removed Keys](/images/o24-macbookair/keys.webp)
+*剥がしたキーたち．無くさないようにしよう．*
+
 #### b. キーをセットする
 ステップ1で検討したキー配置に基づきキーを並べ，上記手順を逆に行います．
+
+![Completed](/images/o24-macbookair/completed.webp)
+*最終的な配置．使いながら少しずつ使いやすいように配置を変更しています*
 
 ### 3. ソフトウェアの設定
 まず，Karabinar-Elementsがバックグラウンドで動作するようにソフトウェア内「Setup」にしたがってmacOSの権限を与えます．
 
+![Setup](/images/o24-macbookair/setup.webp)
+
 次に，Karabinar-Elementsの「Simple Modifications」から，対応するキーをポチポチ一つ一つ押してキー配置を設定します．
 
+![Simple Modification](/images/o24-macbookair/device.webp)
+
+
 また，Maintenance --> Misc --> "Copy the current configuration on the system default configuration"を設定してあげることで，Karabinar-Elementsが常駐していなくても，たとえばログイン画面などでも安定的にこの配列が使えるようになります．とても安定して良いです．
+
+![System Default](/images/o24-macbookair/system-default.webp)
 
 ちなみにLinux Keydの場合はほとんどそのままこの設定がテキストファイルで行えるのですが，Karabinar-ElementsではJSONで設定ファイルが管理されているためそのファイルを直接編集することは可読性の観点や構文エラーのリスクからあまりおすすめできません．面倒です．
 
@@ -66,4 +81,14 @@ https://www.youtube.com/watch?v=8dB-vNBXEFQ
 速度もQWERTYで極めていたときにはまだ及びませんが日常のタイピングに支障は無く，また打ち心地は最高です．
 もう半年以上大西配列を使用していますが，QWERTYに戻りたいと思う理由も特になく，これからもこの配列でコーディングや大学の課題を行いたいと思っています．
 
+![Result](/images/o24-macbookair/res.webp)
+*大西配列における最新の[e-typing](https://www.e-typing.ne.jp)の結果．これだけ打てれば日常利用に支障はないだろう．*
+
 ありがとうございます，大西さん！
+
+2026/10/17
+**木越 斎**
+
+--
+![Boy and Hay](/images/o24-macbookair/boy-and-hay.webp)
+*干し草と少年; 記事と無関係のスナップ写真*
