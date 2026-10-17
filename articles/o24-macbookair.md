@@ -3,7 +3,7 @@ title: "MacBook Air (2026)を大西配列化する（Karabinar-Elements on macOS
 emoji: "🦡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [大西配列, macos, karabinerelements]
-published: false
+published: true
 ---
 ## 動機
 こちらの記事に書いたとおり，最近私は12年もののMacBook Pro (Mid 2014) with Fedora LinuxからMacBook Air (M5, 2026)へ乗り換えました．
