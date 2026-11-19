@@ -1,0 +1,12 @@
+title: "MinecraftのModを開発しよう(Fabric 1.21.11)"
+summary: "この本では，Fabricを使ったMinecraft　Java版のMod開発を日本語で解説していきます．"
+topics: [minecraft, fabric]
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - about
+  - installation
+  - item
+  - block
+  - entity
