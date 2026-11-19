@@ -1,0 +1,7 @@
+title: "Rustで学ぶネットワーク入門"
+summary: "ユーザに近いところから順に，だんだんと深部へ．"
+topics: []
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
