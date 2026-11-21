@@ -66,9 +66,10 @@ Fedoraでdnf（パッケージマネージャ）経由でソフトウェアを�
 - [AltTab](https://alt-tab.app/)
   - `brew install --cask alt-tab`
   - ⌘+Tabの挙動を修正し，ウィンドウ単位でアプリケーションの切り替えができるようにするものです．Macの⌘+Tabはシンプルすぎるのでこれがあると便利
-- [Rectangle](https://rectangleapp.com/)
-  - `brew install --cask rectangle`
-  - ショートカットでウィンドウの右寄せ，左寄せ，全画面等を切り替えるために必要です．
+- ~~[Rectangle](https://rectangleapp.com/)~~
+  - ~~`brew install --cask rectangle`~~
+  - ~~ショートカットでウィンドウの右寄せ，左寄せ，全画面等を切り替えるために必要です．~~
+  - macOSデフォルトのFn+Control+矢印で同じようなことが出来るようになっていました！これで十分．
 このあたりはGNOMEであればデフォルトの設定で出来たものがmacOSではこのようにバックグラウンドでいくつものアプリケーションを立ち上げておかなければなりません:(
 GNOMEが恋しいです...いつかこいつもmacOSのアップデートが止まったらAsahiLinux+Fedora化してやります．
 
